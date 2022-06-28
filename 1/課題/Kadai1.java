@@ -2,7 +2,7 @@
   二つのメールファイルに含まれる英単語の出現数をカウントし，出現した総単語数と，各英単語とその出現頻度を出力する
 
   @作成者: 佐藤 優太
-  @提出日: 2022/06/22
+  @提出日: 2022/06/28
 
   % javacu Kadai1.java
   % javau Kadai1 [ファイル名1] [ファイル名2]
@@ -96,7 +96,7 @@ public class Kadai1 {
       for (String key: dic.keySet()) {
         System.out.println(key + " " + dic.get(key)); // 出現した単語とその出現頻度を出力
 
-        countAllWord += dic.get(key);                 // 総単語数に加算
+        countAllWord++;                               // 総単語数に加算
       }
 
       System.out.println("総単語数: " + countAllWord);
