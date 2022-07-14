@@ -1,3 +1,13 @@
+/*
+  各種図形の発生や PostScriptへの出力を制御する
+
+  @作成者: 佐藤 優太
+  @提出日: 2022/07/14
+
+  % javacu Kadai4.java
+  % javau Kadai4 [出力するpsファイル名] [生成する図形の数]
+*/
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
